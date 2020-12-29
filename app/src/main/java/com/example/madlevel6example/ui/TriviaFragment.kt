@@ -1,4 +1,4 @@
-package com.example.madlevel6example
+package com.example.madlevel6example.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +8,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
+import com.example.madlevel6example.viewmodel.TriviaViewModel
 import com.example.madlevel6example.databinding.FragmentTriviaBinding
 
 /**

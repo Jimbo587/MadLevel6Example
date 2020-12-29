@@ -1,4 +1,4 @@
-package com.example.madlevel6example
+package com.example.madlevel6example.viewmodel
 
 import android.app.Application
 import android.util.Log
@@ -6,6 +6,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
+import com.example.madlevel6example.repository.TriviaRepository
 import kotlinx.coroutines.launch
 
 class TriviaViewModel(application: Application) : AndroidViewModel(application) {

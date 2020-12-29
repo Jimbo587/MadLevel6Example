@@ -1,7 +1,9 @@
-package com.example.madlevel6example
+package com.example.madlevel6example.repository
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import com.example.madlevel6example.api.TriviaApi
+import com.example.madlevel6example.api.TriviaApiService
 import com.example.madlevel6example.model.Trivia
 import kotlinx.coroutines.withTimeout
 

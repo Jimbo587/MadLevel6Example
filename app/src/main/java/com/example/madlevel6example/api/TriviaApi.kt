@@ -1,4 +1,4 @@
-package com.example.madlevel6example
+package com.example.madlevel6example.api
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -13,7 +13,7 @@ class TriviaApi {
         /**
          * @return [TriviaApiService] The service class off the retrofit client.
          */
-        fun createApi(): TriviaApiService{
+        fun createApi(): TriviaApiService {
             // Create an OkHttpClient to be able to make a log of the network traffic
             val okHttpClient = OkHttpClient.Builder()
                 .addInterceptor(HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY))
